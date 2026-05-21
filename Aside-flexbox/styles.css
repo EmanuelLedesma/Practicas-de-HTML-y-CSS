@@ -1,0 +1,11 @@
+.nav-wrapper{
+    display: flex;
+    /* Justify content es una propiedad que separa los elementos del contenedor, le dice a los divs como distribuirse en el espacio disponible */
+    justify-content: center;
+}
+
+.item{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
