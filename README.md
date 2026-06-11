@@ -7,5 +7,6 @@ En este repositorio aplico los conceptos base que todo desarrollador debe domina
 *   **Modelo de Caja (Box Model):** Diferencia y uso de `margin`, `border` y `padding`.
 *   **Posicionamiento:** Uso de `display` (block, inline, inline-block) y flujos de documento.
 *   **Estilización:** Manejo de colores, tipografías y decoraciones básicas.
+*   **Flexbox**
 
 Cómo programar sitios web desde cero con HTML y CSS
