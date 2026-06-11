@@ -1,21 +1,42 @@
-body{
-    margin: 20px; 
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    min-height: 100vh;       /* Asegura que el body ocupe toda la pantalla */
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background: white;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #F8F6F2;
+    transition: all 0.3s ease;
+}
 
+button:hover{
+    background-color: #007bff; /* Un azul que combine */
+    color: white;              /* Cambia el texto a blanco */
+    border-color: #007bff;
+    transform: translateY(-2px); /* Un pequeño salto hacia arriba */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Sombra suave */
 }
 
 .avatar {
     width: 150px;
+    border-radius: 6px;
 }
 
 .card { 
-    margin: auto;
+    margin: 0 auto;
     width: 400px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    color: #2b2839;
-    background: #ddebf8;
-    border-bottom: 6px solid #d8cefe;
+    align-items: center;
+    color: #F8F6F2;
+    background: #344054;
+    border-bottom: 6px solid #518ADC;    
 }
